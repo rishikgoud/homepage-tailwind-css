@@ -11,12 +11,10 @@
     ></script>
   </head>
   <body>
-
-    <div class="container w-full h-screen bg-white font-['gilroy'] mx-auto ">
-
-        <!-- -----------------navbarr------------------ -->
+    <div class="container w-full h-screen bg-white font-['gilroy'] mx-auto">
+      <!-- -----------------navbarr------------------ -->
       <nav
-        class="navbar shadow-lg flex items-center justify-between w-full py-3 px-4 bg-white-200 sticky top-0 z-50"
+        class="navbar shadow-lg flex items-center justify-between w-full py-3 px-4 bg-white sticky top-0 z-10"
       >
         <div class="links flex items-center gap-9">
           <h3 class="font-semibold text-2xl">
@@ -34,65 +32,104 @@
           </button>
           <i class="fa-solid fa-bars lg:hidden text-xl"></i>
         </div>
-    </nav>
-    <!-- ---------------------------------section----------------------------- -->
-    <header>
- 
-        <div class="section text-center my-16 mx-3 ">
-            <h2
+      </nav>
+      <!-- ---------------------------------section----------------------------- -->
+      <header class="">
+        <div class="section text-center my-16 mx-3">
+          <h2
             class="text-6xl font-semibold leading-tight my-5 lg:mt-28 lg:text-8xl"
-            >
+          >
             Accounting <span class="text-blue-600">made simple</span><br />
             for small businesses.
-        </h2>
-        <div>
-            <p
-            class="mb-6 text-xl text-stone-900 lg:text-3xl text-center "
+          </h2>
+          <div>
+            <p class="mb-6 text-xl text-stone-900 lg:text-3xl text-center">
+              most bookkeeping software is accurate, but hard to use. We make
+              the opposite trade-off, and hope you don't get audited.
+            </p>
+          </div>
+          <div class="buttons flex justify-center items-center pt-6">
+            <button
+              class="bg-gray-800 py-2.5 px-4 lg:py-4 lg:px-8 rounded-3xl me-7 text-base text-white font-semibold flex items-center"
             >
-            most bookkeeping software is accurate, but hard to use. We make the
-            opposite trade-off, and hope you don't get audited.
-        </p>
-    </div>
-    <div class="buttons flex justify-center items-center pt-6   ">
-        <button
-        class="bg-gray-800 py-2.5 px-4 lg:py-4 lg:px-8 rounded-3xl me-7 text-base text-white font-semibold flex items-center "
-        >
-        Get 6 months free
-    </button>
-    <button
-    class="py-2 px-4 lg:py-4 lg:px-8 rounded-3xl me-7 text-base flex items-center gap-3 border-2 border-stone-900"
-    >
-    <i class="fa-solid fa-play text-blue-600"></i> Watch Video
-</button>
-</div>
-</div>
+              Get 6 months free
+            </button>
+            <button
+              class="py-2 px-4 lg:py-4 lg:px-8 rounded-3xl me-7 text-base flex items-center gap-3 border-2 border-stone-900"
+            >
+              <i class="fa-solid fa-play text-blue-600"></i> Watch Video
+            </button>
+          </div>
+        </div>
 
-<!-- -------------------------companies---------------------- -->
-<div class="company_section my-8 px-4">
-    <p class="text-center text-base font-semibold text-slate-900 py-5">Trusted by these six companies so far</p>
-    <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6     items-center">
-        <div><img src="https://salient.tailwindui.com/_next/static/media/transistor.7274e6c3.svg"   alt=""></div>
-        <div><img src="https://salient.tailwindui.com/_next/static/media/mirage.18d2ec4e.svg" alt=""></div>
-        <div><img src="https://salient.tailwindui.com/_next/static/media/tuple.74eb0ae0.svg" alt=""></div>
-        <div><img src="https://salient.tailwindui.com/_next/static/media/laravel.7deed17e.svg" alt=""></div>
-        <div><img src="https://salient.tailwindui.com/_next/static/media/statickit.d7937794.svg" alt=""></div>
-        <div><img src="https://salient.tailwindui.com/_next/static/media/statamic.6da5ebfb.svg" alt=""></div>
-    </div>
-</div>
-
-
-</header>
-<!-- -----------------------footer----------------------------- -->
-      <footer class="bg-gray-800 w-full lg:bg-white py-2 flex items-center justify-between px-2">
+        <!-- -------------------------companies---------------------- -->
+        <div class="company_section my-8 px-4">
+          <p class="text-center text-base font-semibold text-slate-900 py-5">
+            Trusted by these six companies so far
+          </p>
+          <div
+            class="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6 items-center"
+          >
+            <div>
+              <img
+                src="https://salient.tailwindui.com/_next/static/media/transistor.7274e6c3.svg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://salient.tailwindui.com/_next/static/media/mirage.18d2ec4e.svg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://salient.tailwindui.com/_next/static/media/tuple.74eb0ae0.svg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://salient.tailwindui.com/_next/static/media/laravel.7deed17e.svg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://salient.tailwindui.com/_next/static/media/statickit.d7937794.svg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                src="https://salient.tailwindui.com/_next/static/media/statamic.6da5ebfb.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- -----------------------footer----------------------------- -->
+      <footer
+        class="bg-gray-800 w-full lg:bg-white py-2 flex items-center justify-between px-2"
+      >
         <div>
-            <p class="text-white text-xs lg:text-base lg:text-stone-900 py-2 text-center w-full "
-            >Copyright © 2024 TaxPal. All rights reserved | Designed by Rishik Goud </p>
+          <p
+            class="text-white text-xs lg:text-base lg:text-stone-900 py-2 text-center w-full"
+          >
+            Copyright © 2024 TaxPal. All rights reserved | Designed by Rishik
+            Goud
+          </p>
         </div>
         <div class="hidden lg:flex gap-3">
-            <a href="https://github.com/rishikgoud?"><i class="fa-brands fa-github text-xl"></i></a>
-            <a href="https://x.com/TallaRishi52356"><i class="fa-brands fa-x-twitter text-xl"></i></a>
+          <a href="https://github.com/rishikgoud?"
+            ><i class="fa-brands fa-github text-xl"></i
+          ></a>
+          <a href="https://x.com/TallaRishi52356"
+            ><i class="fa-brands fa-x-twitter text-xl"></i
+          ></a>
         </div>
-        </footer>
+      </footer>
     </div>
   </body>
 </html>
